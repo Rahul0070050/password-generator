@@ -56,7 +56,7 @@ label{
     margin: .5rem 0;
 }
 input{
-    height: fit-content;
+    height: fit-content !important;
 }
 .passored-body{
     padding: .2rem 1rem 1rem 1rem;
