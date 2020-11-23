@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.password-conteiner{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: white;
+    width: 360px;
+    background-color: rgb(53, 17, 88);
+}
+.pasword-header{
+    padding: .5rem;
+}
+.password{
+    padding: 0 .6rem;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rebeccapurple;
+}
+.password::-webkit-scrollbar{
+    display: none;
+}
+.password button{
+    font-weight: 600;
+    border: none;
+    color: rebeccapurple;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .2rem .5rem;
+    transform: translate(0%, -125%);
+    display: none;
+}
+.displayButt{
+    transition: all .2s ease;
+    display: block !important;
+}
+label{
+    margin: .5rem 0;
+}
+input{
+    height: fit-content;
+}
+.passored-body{
+    padding: .2rem 1rem 1rem 1rem;
+}
+.form-container{
+    display: flex;
+    justify-content: space-between;
+}
+#genarat{
+    text-transform: capitalize;
+    margin: .6rem 0rem;
+    padding: .3rem .5rem;
+    color: white;
+    background-color: rgb(138, 59, 218);
+    border: none;
+}
