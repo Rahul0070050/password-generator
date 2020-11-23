@@ -11,6 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+
 .password-conteiner{
     font-size: 1.4rem;
     text-transform: capitalize;
